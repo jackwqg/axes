@@ -1,0 +1,7 @@
+#! /bin/sh
+#
+# Created by configure
+
+'./configure' \
+'--with-php-config=/home/users/guweiqing/odp/php/bin/php-config' \
+"$@"

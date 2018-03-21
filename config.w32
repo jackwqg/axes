@@ -1,0 +1,13 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("axes", "for axes support", "no");
+
+// Otherwise, use ARG_ENABLE
+// ARG_ENABLE("axes", "enable axes support", "no");
+
+if (PHP_AXES != "no") {
+	EXTENSION("axes", "axes.c");
+}
+
